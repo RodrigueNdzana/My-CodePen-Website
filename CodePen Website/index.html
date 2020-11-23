@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <title>responsiveness product Landing page</title>                                                         
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <!--   Second navigation bar  -->
+    <div class="nav_link" id="scroll">
+      <picture>
+        <img id="header-img" src="https://d30y9cdsu7xlg0.cloudfront.net/png/22889-200.png" alt="pixel gym" />
+      </picture>
+      <h1>Fitness Clubs</h1>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#pricing" class="nav-link">pricing</a></li>
+          <li><a href="#video" class="nav-link">Video</a></li>
+          <li><a href="#classes" class="nav-link">Classes</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--  The first navigation bar   -->
+    <div id="nav_link2">
+      <nav>
+        <ul>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#Contact">Contact us</a></li>
+          <li><a href="mailto:ndzanarodrigue6@gmail.com" target="_blank">Email us </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="maincointainer">
+    <img src="https://images.pexels.com/photos/4164651/pexels-photo-4164651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+    <!--- the main image of the login page --->
+    <section class="login" id="login">
+      <div class="cointainerLogIn">
+        <div class="introductiondetail">
+          <header id="headermain">
+            <h1>Fitness Clubs</h1>
+          </header>
+          <p>
+            Welcome to Fitness Clubs, before you can access one of our features we recommend you to log in.
+            First users can register. Thank you.
+          </p>
+          <!-- external font awesome icom -->
+          <div class="info">
+            <i class="fa fa-calendar" aria-hidden="true" style=" margin-left: -12px;"></i>
+            <i class="fa fa-check-circle" aria-hidden="true" style="margin-left: 79px;"></i>
+            <i class="fa fa-address-book" aria-hidden="true" style="margin-left: 95px;"></i>
+          </div>
+          <!-- information and register button -->
+          <div class="infomatindetail">
+            <p> View Calender</p>
+            <p> Book Classes</p>
+            <p> Manage Membership</p>
+          </div>
+          <input id="submitregister" type="submit" value="Register" />
+        </div>
+        <!-- start of the login form -->
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <header id="headersecond">            
+            <h2>Log In</h2>
+          </header>
+          <div class="txtblogindetail">
+            <label for="email">
+              Email / Username:
+            </label>
+            <br />
+            <br />
+            <input type="email" name="email" id="email" value="" placeholder="Enter Your email /Username" required>
+          </div>
+
+          <div class="txtblogindetail Password">
+            <label for="password">
+              Password :
+            </label>
+            <br />
+            <br />
+            <input type="password" id="password" name="txtpassword" value="" placeholder="Enter Your password" required>
+          </div>
+          <input id="submit" type="submit" value="Log in" />
+          <p class="forget">
+            Forget <a href="https://codepen.io/rodrigue-ndzana/pen/GRZpqJa" target="_blank">Username</a> or <a href="https://codepen.io/rodrigue-ndzana/pen/GRZpqJa" target="_blank">Password</a>
+          </p>
+
+        </form>
+      </div>
+    </section>
+    <hr />
+
+    <section class="pricing" id="pricing">
+      <header>
+        <h2>Pricing</h2>
+      </header>
+      <p>
+        orem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+      </p>
+    </section>
+    <!-- pricing -->
+    <div class="pricingcontainer" id="classes">
+      <div class="pricing_price">
+        <span>Athletics</span>
+        <h2>R600 - R1150</h2>
+        <h4>PER MONTH</h4>
+        <p>
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit ametLorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+
+        </p>
+        <button class="btn btn1">Select </button>
+      </div>
+
+      <div class="pricing_price_border">
+        <span>Swiming</span>
+        <h2>R440 - R1460</h2>
+        <h4>PER MONTH</h4>
+        <p>
+          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+        </p>
+        <button class="btn btn1">Select </button>
+      </div>
+      <div class="pricing_price_border">
+        <span>Yoga</span>
+        <h2>R1270 - R2590</h2>
+        <h4>PER MONTH</h4>
+        <p>
+          Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+        </p>
+        <button class="btn btn1">Select </button>
+      </div>
+    </div>
+  </main>
+  <div class="videocontainer">
+    <header>
+      <h2> Video</h2>
+    </header>
+    <iframe id="video" src="https://www.youtube.com/embed/ohJgKA1ztNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!--   clasess HTMl code  -->
+  <section class="classes">
+    <header>
+      <h2> Classes</h2>
+    </header>
+    <!-- Classes information container left and right -->
+    <div class="cointain">
+      <div class="left">
+        <!-- Classes information container left-->
+        <h3>Athletics</h3>
+        <p>
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet.
+        </p>
+        <i>Includes:</i> <span>Athletics </span>classes
+        <br />
+        <br />
+        <button class="moreinfo"> More Info</button>
+      </div>
+      <div class="right">
+        <!-- Classes information container right-->
+        <img src="https://images.unsplash.com/photo-1526676037777-05a232554f77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unplash Athletics" />
+      </div>
+    </div>
+
+    <!-- swim -->
+    <div class="cointain">
+      <div class="left">
+        <h3> Swin</h3>
+        <p>
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+
+        </p>
+        <i>Includes:</i> <span> Swim </span>
+        <br />
+        <br />
+        <button class="moreinfo"> More Info</button>
+      </div>
+      <div class="right">
+        <img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="unplash Swim" />
+      </div>
+    </div>
+
+    <!-- Yoga-->
+    <div class="cointain">
+      <div class="left">
+        <h3> Yoga</h3>
+        <p>
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+        </p>
+        <i>Includes:</i>
+        <span>
+          Yoga
+        </span>
+        <br />
+        <br />
+        <button class="moreinfo"> More Info</button>
+      </div>
+      <div class="right">
+        <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="unplash Yoga">
+      </div>
+    </div>
+  </section>
+  <!-- Footer of the page -->
+  <div class="Customer_Support" id="Contact">
+    <div>
+      <span class="Customer">Contact us Now</span>
+      <p>
+        <i class="fa fa-phone"></i> 0860 200 911 <span> (in SA)</span>
+      </p>
+      <p>
+        <i class="fa fa-phone"> </i> 0860 200 911<span> (oustside SA)</span>
+      </p>
+    </div>
+    <div class="Opening_hours">
+      <p>
+        Weekdays: <span>7:30 am to 6pm (5pm on Fridays)</span>
+        Weekdays: <span>7:30 am to 6pm (5pm on Fridays)</span>
+      </p>
+      <p class="weekday">
+      </p>                  
+    </div>
+    <form class="subcriber" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" name="email" id="emailsubcribe" value="" placeholder="Enter Your email /Username" required />
+      <input id="submitsubcribe" type="submit" value="Subscribe" />                  
+    </form>                         
+  </div>
+  <!-- second footer   -->
+  <div class="secondfooter">
+    <p>&copy; <a href="https://www.freecodecamp.org/rodrigue" target="_blank"> Rodrigue Ndzana 2020 </a></p>
+  </div>                         
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

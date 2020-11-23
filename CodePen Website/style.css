@@ -1,0 +1,611 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 1rem;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+#nav_link2 {
+  display: grid;
+  margin-top: -145px;
+  height: 50px;
+  width: 100%;
+  margin-left: -50px;
+}
+#nav_link2 ul {
+  color: black;
+  display: flex;
+  list-style: none;
+  margin-top: -19px;
+}
+#nav_link2 ul li {
+  padding: 35px;
+}
+#nav_link2 a {
+  color: black;
+  text-decoration-line: none;
+}
+#nav_link2 a:hover {
+  color: orange;
+  border-top: 4px solid orange;
+  padding-top: 14px;
+  transition: 0.8s;
+}
+.nav_link {
+  margin-top: 55px;
+  background-color: white;
+  padding: 1px;
+  width: 100%;
+  z-index: 1;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  display: flex;
+  float: right;
+  margin-top: -86px;
+  color: black;
+  margin-right: 9%;
+}
+#nav-bar ul li {
+  padding: 35px;
+  font-size: 1.5rem;
+}
+#nav-bar a {
+  color: black;
+  text-decoration-line: none;
+}
+#nav-bar a:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+  padding-bottom: 20px;
+  transition: 0.8s;
+}
+#header-img {
+  width: 91px;
+}
+#header h1 {
+  font-size: 2rem;
+  margin-top: -60px;
+  margin-left: 96px;
+}
+#headersecond #headermain h1 {
+  font-size: 2rem;
+  margin-top: 60px;
+  margin-left: 96px;
+}
+.srolldown {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky {
+  position: fixed;
+  top: -56px;
+  width: 100%;
+  height: 90px;
+}
+/* --form login---- */
+.maincointainer img {
+  width: 103%;
+  margin-top: -27px;
+  height: 890px;
+  margin-left: -14px;
+  margin-bottom: 90px;
+}
+.cointainerLogIn {
+  margin-top: -695px;
+  color: white;
+  display: flex;
+  margin-left: 38px;
+}
+.introductiondetail {
+  width: 465px;
+}
+.introductiondetail p {
+  font-size: 1.5rem;
+  line-height: 42px;
+}
+.cointainerLogIn h2 {
+  font-size: 1.7rem;
+}
+.txtblogindetail input {
+  background: white;
+  width: 420px;
+  height: 47px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 7px;
+}
+.txtblogindetail input::placeholder {
+  color: black;
+}
+.txtblogindetail label {
+  font-size: 1rem;
+}
+.Password {
+  margin-top: 32px;
+}
+#form {
+  border: 0;
+  margin-left: 61px;
+}
+.greeting {
+  margin-top: -83px;
+}
+.info {
+  margin-top: 90px;
+}
+.info .fa {
+  color: white;
+  font-size: 2.5rem;
+}
+.infomatindetail p {
+  font-size: 16px;
+  width: 97px;
+  line-height: 22px;
+  margin-left: 30px;
+}
+.infomatindetail {
+  display: flex;
+  margin-left: -36px;
+}
+input[type="submit"]{
+  font-size: 1.2rem;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 288px;
+  background-color: #252525;
+  border: 0;
+  border-radius: 9px;
+  color: white;
+  margin-top: 46px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: black;
+  transition: all 0.7s;
+}
+
+.forget {
+  text-align: center;
+  font-size: 1rem;
+  margin-left: -180px;
+}
+.forget a {
+  color: orange;
+}
+
+hr {
+  width: 100%;
+  height: 12px;
+  border: none;
+  background-color: white;
+}
+/* pricing */
+.pricing {
+  margin-top: 170px;
+  text-align: center;
+}
+.pricing p {
+  font-size: 1.3rem;
+}
+.pricing h2 {
+  margin-bottom: 87px;
+}
+.pricingcontainer {
+  background: white;
+  width: 1083px;
+  margin: 78px auto;
+  margin-left: 124px;
+  display: inline-flex;
+}
+.pricing_price span {
+  font-size: 1.8rem;
+  color: orange;
+}
+.pricing_price_border span {
+  font-size: 1.8rem;
+  color: orange;
+}
+
+.pricing_price {
+  padding: 56px;
+  margin-top: -58px;
+  width: 25%;
+  margin-top: 0px;
+  text-align: center;
+}
+.pricing_price h2 {
+  font-size: 1.5rem;
+  margin-left: -24px;
+}
+.pricing_price_border h2 {
+  font-size: 1.5rem;
+  margin-left: -24px;
+}
+.pricing_price_border {
+  padding: 51px;
+  width: 25%;
+  margin-top: 1px;
+  border-left: 3px solid gray;
+  text-align: center;
+}
+.pricingprice_border h4 {
+  margin-top: -2em;
+  margin-left: 2em;
+}
+.pricing_price h4 {
+  font-size: 0.8rem;
+  margin-top: 0.5em;
+  margin-left: 2em;
+}
+.pricing_price p {
+  margin-bottom: 16px;
+}
+.btn {
+  border: 1px solid orange;
+  background: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn1 {
+  color: orange;
+}
+.btn1:hover {
+  color: #fff;
+}
+.btn1:hover {
+  color: black;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: orange;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before {
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.btn1:hover::before {
+  height: 180%;
+}
+/* ---video */
+.videocontainer {
+  text-align: center;
+  margin-top: 90px;
+}
+.videocontainer h2 {
+  margin-top: -87px;
+  margin-bottom: 87px;
+}
+iframe {
+  width: 66%;
+  height: 333px;
+}
+
+/* -----------Css for classes information ----------- */
+
+.cointain {
+  margin: 9em auto;
+  width: 98%;
+  display: flex;
+  margin-left: 63px;
+}
+.classes {
+  margin-top: 90px;
+}
+.classes h2 {
+  text-align: center;
+}
+.left {
+  width: 491px;
+  background-color: #252525;
+  padding: 74px;
+  height: 289px;
+}
+.left img {
+  width: 656px;
+}
+.right {
+  margin-left: -61px;
+}
+.right img {
+  width: 656px;
+}
+.left h3 {
+  font-size: 41px;
+  font-weight: 100;
+  color: white;
+  margin-top: -7px;
+}
+.left p {
+  color: white;
+  font-size: 1rem;
+  line-height: 25px;
+}
+.left i {
+  color: white;
+}
+.left span {
+  color: white;
+  font-weight: bolder;
+}
+.cointain1 {
+  margin: 5em auto;
+  width: 1178px;
+  display: flex;
+  margin-left: 118px;
+}
+/* .right img{
+  width: 522px;
+  height: 437px;
+} */
+.moreinfo {
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+  width: 102px;
+  margin-top: 29px;
+  background: black;
+  border: 0;
+  border-radius: 13px;
+  color: white;
+}
+.moreinfo:hover {
+  background: red;
+  color: orange;
+  transition: 0.4s;
+}
+/* ---- Css footer session of the page */
+.Customer_Support {
+  background-color: rgb(47, 47, 48);
+  padding: 26px;
+  margin-top: 265px;
+  width: 100%;
+  margin-left: -9px;
+}
+.Customer_Support span {
+  color: gray;
+}
+.Customer_Support .Customer {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+  margin-left: -14px;
+}
+.Customer_Support p {
+  color: white;
+}
+.Customer {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  margin-left: -27px;
+}
+#Opening_hours {
+  margin-top: -79px;
+  text-align: center;
+  margin-left: -579px;
+}
+.weekday {
+  margin-left: -59px;
+}
+.subcriber {
+  float: right;
+  margin-top: -115px;
+  margin-right: 353px;
+}
+.subcriber input[type="email"] {
+  padding: 10px;
+}
+/* second footer */
+.secondfooter {
+  background: black;
+  color: white;
+  padding: 1px;
+  width: 110%;
+  margin-left: -9px;
+}
+.secondfooter p {
+  text-align: center;
+  color: white;
+}
+.secondfooter a {
+  color: white;
+  text-decoration-line: none;
+}
+/* ---Responsiveness ---*/
+@media only screen and (max-width: 700px) {
+  #nav_link2 ul li {
+    width: 68px;
+    margin-right: -21px;
+  }
+  #nav-bar ul li {
+    font-size: 1.4rem;
+    margin-right: -19px;
+    margin-top: -5px;
+    margin-left: 3px;
+  }
+  #nav_link2 a {
+    margin-left: -71px;
+  }
+  #nav_link2 {
+    margin-left: 1px;
+  }
+  .nav_link a:hover {
+    padding-bottom: 15px;
+  }
+  #header-img {
+    width: 55px;
+  }
+  #header h1{
+    font-size: 1.5rem;
+    margin-top: -42px;
+    margin-left: 61px;
+  }
+  #nav-bar ul {
+    float: left;
+    /* display: block; */
+    margin-top: -48px;
+    margin-left: -72px;
+  }
+  .nav_link {
+    height: 89px;
+    width:121%;
+  }
+  .maincointainer img {
+    width: 124%;
+    height: 324px;
+    margin-top: -30px;
+  }
+  .cointainerLogIn {
+    display: block;
+    margin-left: 9px;
+    margin-top: 30px;
+  }
+  .introductiondetail {
+    margin-top: -399px;
+    max-width: 309px;
+  }
+  .introductiondetail p {
+    font-size: 0.9rem;
+    line-height: 22px;
+  }
+  .info {
+    margin-top: -13px;
+  }
+  .info .fa {
+    font-size: 28px;
+  }
+  #submit {
+    margin-top: 40px;
+    padding: 6px;
+  }
+  #form {
+    margin-left: 9px;
+    color: black;
+    text-align: center;
+  }
+  .txtblogindetail label {
+    font-size: 15px;
+  }
+  .txtblogindetail input {
+    width: 283px;
+  }
+  .forget {
+    margin-left: 0px;
+  }
+  /* price resposiveness   */
+  .pricingcontainer {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-bottom: 54px;
+  }
+  .pricing_price {
+    /*     width: 168px; */
+    width: 83%;
+  }
+  .pricing_price span {
+    font-size: 25px;
+  }
+  .pricing_price h2 {
+    font-size: 14px;
+  }
+  .pricing_price h4 {
+    font-size: 7px;
+    margin-top: -6px;
+  }
+  .pricingcontainer p {
+    font-size: 15px;
+    text-align: start;
+  }
+  .pricing p {
+    font-size: 15px;
+  }
+  .pricing {
+    margin-top: 69px;
+  }
+  .pricing h2 {
+    margin-bottom: 54px;
+  }
+  .pricing_price_border {
+    width: 68%;
+    border-top: 3px solid gray;
+    border-left: none;
+  }
+  .pricing_price span_border {
+    font-size: 25px;
+  }
+  .pricing_price_border h2 {
+    font-size: 14px;
+  }
+  .pricing_price_border h4 {
+    font-size: 7px;
+    margin-top: -6px;
+  }
+  .pricingcontainer_border p {
+    font-size: 15px;
+    text-align: start;
+  }
+  /*  video  */
+  iframe {
+    width: 100%;
+  }
+  .videocontainer h2 {
+    text-align: center;
+    margin-top: 87px;
+  }
+  /*  classes  */
+  .cointain {
+    display: block;
+    margin: 90px auto;
+    text-align: -webkit-center;
+    margin-left: -8px;
+  }
+  .left {
+    width: 212px;
+    height: 275px;
+  }
+  .right {
+    margin: auto;
+  }
+  .right img {
+    width: 360px;
+  }
+  /* footer */
+  .Customer_Support {
+    width: 107%;
+  }
+}
+.Customer_Support p {
+  margin-left: 2px;
+}
+.Opening_hours {
+  margin: 0;
+  text-align: initial;
+}
+.subcriber input[type="email"] {
+  width: 259px;
+}
+.subcriber {
+  margin: 0;
+  float: none;
+}
